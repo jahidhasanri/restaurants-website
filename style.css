@@ -3,6 +3,180 @@ margin: 0;
 padding:0;
 box-sizing: border-box;
 }
-.main{
-    background-color: rebeccapurple;
+#sec1{
+   
+    background-image: linear-gradient(180.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1920px;
+    height: 919px;
+    left: 1920px;
+    top: 919px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+.div-m{
+   width: 1023px;
+   height: 295px;
+}
+.div-m h3{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 32px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+padding-bottom: 16px;
+padding: 0px 11.5px;
+}
+.div-m h1{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 64px;
+font-weight: 700;
+line-height: 80px;
+letter-spacing: 0%;
+text-align: center;
+padding-bottom: 24px;
+padding: 0px 11.5px;
+}
+.div-m p{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+padding-bottom: 32px;
+}
+.div-m button{
+    width: 282px;
+    height: 56px;
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 8px;
+background: rgb(82, 195, 3);
+margin: 32px 370.5px 263px 370.5px;
+}
+/* section 1 end here */
+
+/* section 2 start here */
+#sec2{
+    width:1320px;
+    height:871px;
+    margin: 0 auto;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+   }
+.card_main{
+    width: 1320px;
+    height: 522px;
+    display: flex;
+    
+}
+.title{
+    width: 691px;
+    height: 172px;
+    margin: 0 auto;
+}
+.title h4{
+    width: 185px;
+    height: 28px;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    margin: 0 auto;
+    padding-bottom: 16px;
+}
+.title h1{
+    width: 100%;
+    height: 128px;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: center;
+}
+.card{
+    width: 424px;
+    height: 522px;
+    background-color: azure;
+    margin-right: 24px;
+    padding-bottom: 64px;
+}
+.card img{
+    width: 424px;
+    height: 283px;
+    margin-bottom: 32px;
+}
+.btn1{
+    width: 187px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+.btn1:hover{
+    background: green;
+}
+.card h2{
+    width: 240px;
+    height: 40px;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    margin: 0 auto;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+.card p{
+    width: 424px;
+    height: 56px;
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.btn2{
+    position: static;
+    width: 212px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    text-align: center;
+    margin-top: 64px;
+   
+}
+.btn2:hover{
+    background: green;
+}
+.main-btn{
+    display: flex;
 }
