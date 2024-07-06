@@ -67,6 +67,10 @@ border-radius: 8px;
 background: rgb(82, 195, 3);
 margin: 32px 370.5px 263px 370.5px;
 }
+button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
 /* section 1 end here */
 
 /* section 2 start here */
@@ -78,7 +82,7 @@ margin: 32px 370.5px 263px 370.5px;
 .container{
     width: 100%;
     height: 100%;
-    background-color: orange;
+   
    }
 .card_main{
     width: 1320px;
@@ -137,6 +141,7 @@ margin: 32px 370.5px 263px 370.5px;
 }
 .btn1:hover{
     background: green;
+    cursor: pointer;
 }
 .card h2{
     width: 240px;
@@ -175,7 +180,8 @@ text-align: center;
    
 }
 .btn2:hover{
-    background: green;
+    background: rgb(209, 231, 7);
+    cursor: pointer;
 }
 .main-btn{
     display: flex;
